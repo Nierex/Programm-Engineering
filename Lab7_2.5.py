@@ -9,3 +9,5 @@ def reverse_lines_in_file(filename):
         f.writelines(lines)
 
     print("Строки успешно перевёрнуты!")
+
+reverse_lines_in_file('input.txt')
