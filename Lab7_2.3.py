@@ -11,3 +11,5 @@ def text_stats(filename):
     print(f"{letters} letters")
     print(f"{words} words")
     print(f"{lines} lines")
+
+text_stats('input.txt')
